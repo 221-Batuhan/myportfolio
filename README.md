@@ -28,7 +28,6 @@ I'm a 4th-year Computer Science student at Altinbas University with a passion fo
 - **Project Showcase** - Detailed project presentations
 - **Skills Visualization** - Interactive skill progress bars
 - **Professional Timeline** - Education and experience history
-- **Contact Integration** - Email and social media links
 
 ## 🏆 Certifications
 
@@ -63,75 +62,13 @@ A modern blog website with content management, user authentication, rich text ed
 
 This portfolio emphasizes clean, modern design with a focus on user experience. The color scheme and typography are carefully chosen to create a professional yet approachable appearance. The responsive design ensures optimal viewing across all devices.
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v18 or higher)
-- npm or yarn
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/portfolio.git
-   cd portfolio
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Start development server**
-   ```bash
-   npm start
-   ```
-
-4. **Open your browser**
-   Navigate to `http://localhost:3000`
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-## 📁 Project Structure
-
-```
-src/
-├── components/
-│   ├── Navbar.tsx          # Navigation with theme toggle
-│   ├── Hero.tsx           # Hero section with introduction
-│   ├── About.tsx          # About section with features
-│   ├── Skills.tsx         # Skills with progress bars
-│   ├── Projects.tsx       # Project showcase
-│   ├── Experience.tsx     # Timeline of experience
-│   ├── Contact.tsx        # Contact form
-│   ├── Footer.tsx         # Footer with social links
-│   └── ProjectDetail.tsx  # Individual project pages
-├── App.tsx                # Main app component
-├── index.tsx              # App entry point
-└── index.css              # Global styles
-```
-
 ## 🌐 Deployment
 
-This portfolio is deployed on Netlify with automatic deployments from the main branch. The build process optimizes the application for production with:
-
-- Code splitting and lazy loading
-- Optimized images and assets
-- Minified CSS and JavaScript
-- SEO optimization
+This portfolio is deployed on Netlify with automatic deployments from the main branch. The build process optimizes the application for production with code splitting, optimized assets, and SEO optimization.
 
 ## 📱 Responsive Design
 
-The portfolio is built with a mobile-first approach and includes:
-
-- Responsive grid layouts
-- Flexible typography scaling
-- Touch-friendly navigation
-- Optimized images for different screen sizes
+The portfolio is built with a mobile-first approach and includes responsive grid layouts, flexible typography scaling, touch-friendly navigation, and optimized images for different screen sizes.
 
 ## 🎯 Performance Features
 
@@ -141,12 +78,6 @@ The portfolio is built with a mobile-first approach and includes:
 - Minimal bundle size
 - Fast loading times
 
-## 📞 Contact
-
-- **Email:** [your-email@example.com]
-- **LinkedIn:** [your-linkedin-profile]
-- **GitHub:** [your-github-profile]
-- **Location:** Istanbul, Turkey / Bialystok, Poland
 
 ## 📄 License
 
