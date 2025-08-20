@@ -85,5 +85,6 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 *Built with using React, TypeScript, and TailwindCSS*
+---
 **-PS-**
 *The certificates and projects are expected to be done before september of 2026.*
