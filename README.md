@@ -1,30 +1,79 @@
-# Personal Portfolio Website
+# Batuhan Açan - Personal Portfolio
 
-A modern, responsive portfolio website built with React, TypeScript, TailwindCSS, and Framer Motion. Perfect for showcasing your skills, projects, and experience as a developer.
+A modern, responsive portfolio website showcasing my skills, projects, and experience as a full-stack developer with AI/ML expertise. Built with React, TypeScript, and TailwindCSS.
 
-## 🚀 Features
+## 🚀 Live Demo
 
-- **Modern Design**: Clean, minimal design with smooth animations
-- **Responsive**: Fully responsive across all devices
-- **Dark Mode**: Toggle between light and dark themes
-- **Smooth Animations**: Powered by Framer Motion
-- **SEO Optimized**: Meta tags and semantic HTML
-- **Fast Performance**: Optimized for speed and accessibility
-- **Easy Customization**: Well-structured code for easy updates
+[View Portfolio](https://your-portfolio-url.netlify.app) *(Update with your actual Netlify URL)*
+
+## 🎯 About Me
+
+I'm a 4th-year Computer Science student at Altinbas University with a passion for full-stack development and artificial intelligence. Currently participating in the Erasmus program at Bialystok University of Technology in Poland, I specialize in creating modern web applications and AI solutions.
 
 ## 🛠️ Tech Stack
 
-- **React 18** with TypeScript
-- **TailwindCSS** for styling
-- **Framer Motion** for animations
-- **Lucide React** for icons
-- **React Router** for navigation
+- **Frontend:** React 18, TypeScript, TailwindCSS, Framer Motion
+- **Backend:** Node.js, Express.js, RESTful APIs
+- **Databases:** MongoDB, PostgreSQL
+- **AI/ML:** Python, TensorFlow, Machine Learning
+- **Cloud:** AWS, Google Cloud Platform
+- **Tools:** Git, Agile Project Management
 
-## 📦 Installation
+## 📋 Features
+
+- **Responsive Design** - Optimized for all devices
+- **Dark/Light Mode** - Automatic theme detection with manual toggle
+- **Smooth Animations** - Powered by Framer Motion
+- **Bilingual Support** - English and Turkish
+- **Project Showcase** - Detailed project presentations
+- **Skills Visualization** - Interactive skill progress bars
+- **Professional Timeline** - Education and experience history
+- **Contact Integration** - Email and social media links
+
+## 🏆 Certifications
+
+### Professional Certificates (2026)
+- Meta Front-End Developer Professional Certificate
+- Meta Back-End Developer Professional Certificate
+- IBM AI Engineering Professional Certificate
+- DeepLearning.AI TensorFlow Developer Certificate
+- Google IT Automation with Python Professional Certificate
+- AWS Cloud Foundations
+- Google Cloud Fundamentals
+- Agile Project Management by Google
+- Databases for Developers: PostgreSQL & MongoDB
+
+### Additional Certifications
+- FreeCodeCamp Responsive Web Design
+- FreeCodeCamp JavaScript Algorithms & Data Structures
+
+## 💼 Featured Projects
+
+### E-Commerce Platform
+A comprehensive full-stack e-commerce solution featuring user authentication, product management, shopping cart functionality, and Stripe payment integration.
+
+**Tech Stack:** React, Node.js, MongoDB, Express, Stripe
+
+### Personal Blog Platform
+A modern blog website with content management, user authentication, rich text editing, and SEO optimization.
+
+**Tech Stack:** React, Node.js, MongoDB, Express, TailwindCSS
+
+## 🎨 Design Philosophy
+
+This portfolio emphasizes clean, modern design with a focus on user experience. The color scheme and typography are carefully chosen to create a professional yet approachable appearance. The responsive design ensures optimal viewing across all devices.
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/yourusername/portfolio.git
    cd portfolio
    ```
 
@@ -33,7 +82,7 @@ A modern, responsive portfolio website built with React, TypeScript, TailwindCSS
    npm install
    ```
 
-3. **Start the development server**
+3. **Start development server**
    ```bash
    npm start
    ```
@@ -41,212 +90,68 @@ A modern, responsive portfolio website built with React, TypeScript, TailwindCSS
 4. **Open your browser**
    Navigate to `http://localhost:3000`
 
-## 🎨 Customization Guide
+### Build for Production
 
-### 1. Personal Information
-
-Update the following files with your personal information:
-
-#### Hero Section (`src/components/Hero.tsx`)
-- Replace "Your Name" with your actual name
-- Update social media links (GitHub, LinkedIn, email)
-- Modify the tagline if desired
-
-#### About Section (`src/components/About.tsx`)
-- Update the biography text
-- Replace the profile photo placeholder
-- Modify the key features/achievements
-
-#### Contact Section (`src/components/Contact.tsx`)
-- Update email, phone, and location
-- Modify social media links
-
-#### Footer (`src/components/Footer.tsx`)
-- Update your name and contact information
-- Modify social media links
-
-### 2. Skills Section (`src/components/Skills.tsx`)
-
-Update the skills arrays with your actual skills and proficiency levels:
-
-```typescript
-const skillCategories = [
-  {
-    title: "Full-Stack Development",
-    skills: [
-      { name: "React", level: 90 },
-      { name: "Node.js", level: 85 },
-      // Add your skills here
-    ]
-  },
-  // Add more categories
-];
+```bash
+npm run build
 ```
 
-### 3. Projects Section (`src/components/Projects.tsx`)
-
-Replace the placeholder projects with your actual projects:
-
-```typescript
-const projects = [
-  {
-    id: 1,
-    title: "Your Project Name",
-    description: "Project description",
-    image: "project-image-url",
-    category: "fullstack", // or "ai", "frontend"
-    tech: ["React", "Node.js", "MongoDB"],
-    github: "https://github.com/yourusername/project",
-    demo: "https://project-demo.com",
-    featured: true
-  },
-  // Add more projects
-];
-```
-
-### 4. Experience Section (`src/components/Experience.tsx`)
-
-Update with your actual experience and education:
-
-```typescript
-const experiences = [
-  {
-    id: 1,
-    type: 'education',
-    title: 'Your Degree',
-    organization: 'Your University',
-    location: 'Your City, Country',
-    period: '2020 - 2024',
-    description: 'Your description',
-    highlights: [
-      'Achievement 1',
-      'Achievement 2',
-      // Add more highlights
-    ]
-  },
-  // Add more experiences
-];
-```
-
-### 5. Styling Customization
-
-#### Colors
-Update the primary color scheme in `tailwind.config.js`:
-
-```javascript
-colors: {
-  primary: {
-    50: '#eff6ff',
-    100: '#dbeafe',
-    // ... customize your color palette
-  },
-}
-```
-
-#### Typography
-Modify font sizes and weights in the component classes or add custom fonts in `index.css`.
-
-### 6. Contact Form Integration
-
-The contact form is currently set up with a simulation. To integrate with a real email service:
-
-1. **EmailJS** (Recommended for simple setup):
-   ```bash
-   npm install emailjs-com
-   ```
-
-2. **Formspree** (No backend required):
-   - Sign up at formspree.io
-   - Replace the form action with your Formspree endpoint
-
-3. **Custom Backend**:
-   - Set up your own API endpoint
-   - Update the `handleSubmit` function in `Contact.tsx`
-
-## 🚀 Deployment
-
-### Vercel (Recommended)
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Deploy automatically
-
-### Netlify
-1. Push your code to GitHub
-2. Connect your repository to Netlify
-3. Build command: `npm run build`
-4. Publish directory: `build`
-
-### GitHub Pages
-1. Install gh-pages: `npm install --save-dev gh-pages`
-2. Add to package.json:
-   ```json
-   "homepage": "https://yourusername.github.io/portfolio",
-   "scripts": {
-     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build"
-   }
-   ```
-3. Deploy: `npm run deploy`
-
-## 📝 File Structure
+## 📁 Project Structure
 
 ```
 src/
 ├── components/
-│   ├── Navbar.tsx          # Navigation bar
-│   ├── Hero.tsx           # Hero section
-│   ├── About.tsx          # About section
-│   ├── Skills.tsx         # Skills section
-│   ├── Projects.tsx       # Projects section
-│   ├── Experience.tsx     # Experience section
-│   ├── Contact.tsx        # Contact section
-│   └── Footer.tsx         # Footer
+│   ├── Navbar.tsx          # Navigation with theme toggle
+│   ├── Hero.tsx           # Hero section with introduction
+│   ├── About.tsx          # About section with features
+│   ├── Skills.tsx         # Skills with progress bars
+│   ├── Projects.tsx       # Project showcase
+│   ├── Experience.tsx     # Timeline of experience
+│   ├── Contact.tsx        # Contact form
+│   ├── Footer.tsx         # Footer with social links
+│   └── ProjectDetail.tsx  # Individual project pages
 ├── App.tsx                # Main app component
 ├── index.tsx              # App entry point
 └── index.css              # Global styles
 ```
 
-## 🎯 Key Features Explained
+## 🌐 Deployment
 
-### Dark Mode
-- Automatically detects user preference
-- Persists choice in localStorage
-- Smooth transitions between themes
+This portfolio is deployed on Netlify with automatic deployments from the main branch. The build process optimizes the application for production with:
 
-### Animations
-- Scroll-triggered animations using Framer Motion
-- Staggered animations for lists
-- Hover effects and micro-interactions
+- Code splitting and lazy loading
+- Optimized images and assets
+- Minified CSS and JavaScript
+- SEO optimization
 
-### Responsive Design
-- Mobile-first approach
-- Breakpoints: sm (640px), md (768px), lg (1024px), xl (1280px)
-- Flexible grid layouts
+## 📱 Responsive Design
 
-### Performance
-- Lazy loading for images
-- Optimized animations
+The portfolio is built with a mobile-first approach and includes:
+
+- Responsive grid layouts
+- Flexible typography scaling
+- Touch-friendly navigation
+- Optimized images for different screen sizes
+
+## 🎯 Performance Features
+
+- Lazy loading for images and components
+- Optimized animations with Framer Motion
+- Efficient state management
 - Minimal bundle size
+- Fast loading times
 
-## 🔧 Available Scripts
+## 📞 Contact
 
-- `npm start` - Start development server
-- `npm run build` - Build for production
-- `npm test` - Run tests
-- `npm run eject` - Eject from Create React App
+- **Email:** [your-email@example.com]
+- **LinkedIn:** [your-linkedin-profile]
+- **GitHub:** [your-github-profile]
+- **Location:** Istanbul, Turkey / Bialystok, Poland
 
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 🤝 Contributing
-
-Feel free to submit issues and enhancement requests!
-
-## 📞 Support
-
-If you have any questions or need help customizing the portfolio, feel free to reach out!
-
 ---
 
-**Happy coding! 🚀**
+*Built with ❤️ using React, TypeScript, and TailwindCSS*
