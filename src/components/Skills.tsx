@@ -2,11 +2,9 @@ import React, { useContext } from 'react';
 import { motion } from 'framer-motion';
 import { 
   Code, 
-  Brain,
   Cloud,
   Database,
-  GitBranch,
-  Globe
+  GitBranch
 } from 'lucide-react';
 import { LanguageContext } from '../App';
 import { translations } from '../translations';
