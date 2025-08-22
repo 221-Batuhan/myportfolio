@@ -69,80 +69,31 @@ const Experience: React.FC = () => {
   const certificates = [
     {
       id: 1,
-      title: "Meta Front-End Developer Professional Certificate",
+      title: "Meta Full-Stack Developer Professional Certificate",
       organization: "Coursera",
-      date: "2026",
-      description: "Comprehensive front-end development certification covering React, JavaScript, and modern web technologies."
+      date: "In Progress",
+      description: "Currently working on comprehensive full-stack development certification covering both front-end and back-end technologies."
     },
     {
       id: 2,
-      title: "Meta Back-End Developer Professional Certificate",
+      title: "Google Cloud Fundamentals",
       organization: "Coursera",
-      date: "2026",
-      description: "Advanced back-end development certification focusing on server-side programming and database management."
+      date: "In Progress",
+      description: "Currently pursuing Google Cloud Platform certification to enhance cloud computing and deployment skills."
     },
     {
       id: 3,
       title: "IBM AI Engineering Professional Certificate",
       organization: "Coursera",
-      date: "2026",
-      description: "Specialized AI engineering certification covering machine learning, deep learning, and AI applications."
+      date: "In Progress",
+      description: "Currently working on AI engineering certification to develop machine learning and artificial intelligence expertise."
     },
     {
       id: 4,
-      title: "DeepLearning.AI TensorFlow Developer Certificate",
-      organization: "Coursera",
-      date: "2026",
-      description: "Expert-level TensorFlow certification for building and deploying machine learning models."
-    },
-    {
-      id: 5,
-      title: "Google IT Automation with Python Professional Certificate",
-      organization: "Coursera",
-      date: "2026",
-      description: "Python-based IT automation certification covering scripting, automation, and system administration."
-    },
-    {
-      id: 6,
       title: "AWS Cloud Foundations",
       organization: "Coursera",
-      date: "2026",
-      description: "Fundamental AWS cloud computing certification covering core services and best practices."
-    },
-    {
-      id: 7,
-      title: "Google Cloud Fundamentals",
-      organization: "Coursera",
-      date: "2026",
-      description: "Essential Google Cloud Platform certification for cloud infrastructure and services."
-    },
-    {
-      id: 8,
-      title: "Agile Project Management by Google",
-      organization: "Coursera",
-      date: "2026",
-      description: "Professional project management certification focusing on Agile methodologies and team leadership."
-    },
-    {
-      id: 9,
-      title: "Databases for Developers: PostgreSQL & MongoDB",
-      organization: "Coursera",
-      date: "2026",
-      description: "Comprehensive database development certification covering both SQL and NoSQL database technologies."
-    },
-    {
-      id: 10,
-      title: "Responsive Web Design",
-      organization: "FreeCodeCamp",
-      date: "2026",
-      description: "Completed responsive web design certification covering HTML, CSS, and modern web development principles."
-    },
-    {
-      id: 11,
-      title: "JavaScript Algorithms & Data Structures",
-      organization: "FreeCodeCamp",
-      date: "2026",
-      description: "Advanced JavaScript certification focusing on algorithms, data structures, and programming fundamentals."
+      date: "In Progress",
+      description: "Currently pursuing AWS cloud computing certification to strengthen cloud infrastructure and services knowledge."
     }
   ];
 

@@ -29,22 +29,15 @@ I'm a 4th-year Computer Science student at Altinbas University with a passion fo
 - **Skills Visualization** - Interactive skill progress bars
 - **Professional Timeline** - Education and experience history
 
-## 🏆 Certifications
+## 🏆 Certifications (Currently Pursuing)
 
-### Professional Certificates (2026)
-- Meta Front-End Developer Professional Certificate
-- Meta Back-End Developer Professional Certificate
-- IBM AI Engineering Professional Certificate
-- DeepLearning.AI TensorFlow Developer Certificate
-- Google IT Automation with Python Professional Certificate
-- AWS Cloud Foundations
+### Professional Certificates (In Progress)
+- Meta Full-Stack Developer Professional Certificate
 - Google Cloud Fundamentals
-- Agile Project Management by Google
-- Databases for Developers: PostgreSQL & MongoDB
+- IBM AI Engineering Professional Certificate
+- AWS Cloud Foundations
 
-### Additional Certifications
-- FreeCodeCamp Responsive Web Design
-- FreeCodeCamp JavaScript Algorithms & Data Structures
+*I'm actively working on these certifications to enhance my skills in full-stack development, cloud computing, and AI engineering.*
 
 ## 💼 Featured Projects
 
