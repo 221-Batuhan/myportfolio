@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
 
 ## 🚀 Live Demo
 
-[View Portfolio](https://your-portfolio-url.netlify.app) *(Update with your actual Netlify URL)*
+[View Portfolio](https://batuhanacan.netlify.app) 
 
 ## 🎯 About Me
 
@@ -70,7 +70,6 @@ The portfolio is built with a mobile-first approach and includes responsive grid
 - Efficient state management
 - Minimal bundle size
 - Fast loading times
-
 
 ## 📄 License
 
