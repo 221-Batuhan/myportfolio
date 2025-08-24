@@ -1,80 +1,58 @@
 # Batuhan Açan - Personal Portfolio
 
-A modern, responsive portfolio website showcasing my skills, projects, and experience as a full-stack developer with AI/ML expertise. Built with React, TypeScript, and TailwindCSS.
+This is my personal portfolio website where I showcase my skills, projects, and experience as a full-stack developer with some AI/ML work. I built it using React, TypeScript, and TailwindCSS.
 
 ## 🚀 Live Demo
 
-[View Portfolio](https://batuhanacan.netlify.app) 
+[View Portfolio](https://batuhanacan.netlify.app)
 
 ## 🎯 About Me
 
-I'm a 4th-year Computer Science student at Altinbas University with a passion for full-stack development and artificial intelligence. Currently participating in the Erasmus program at Bialystok University of Technology in Poland, I specialize in creating modern web applications and AI solutions.
+I'm a 4th-year Computer Science student at Altinbas University. I completed my Erasmus at Bialystok University of Technology in Poland, focusing on full-stack development and AI projects. I enjoy building modern web apps and experimenting with interactive UI features.
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React 18, TypeScript, TailwindCSS, Framer Motion
-- **Backend:** Node.js, Express.js, RESTful APIs
-- **Databases:** MongoDB, PostgreSQL
-- **AI/ML:** Python, TensorFlow, Machine Learning
-- **Cloud:** AWS, Google Cloud Platform
-- **Tools:** Git, Agile Project Management
+* **Frontend:** React 19, TypeScript, TailwindCSS, Framer Motion
+* **Backend:** Node.js, Express.js, REST APIs
+* **Databases:** MongoDB, PostgreSQL
+* **AI/ML:** Python, TensorFlow
+* **Cloud & Deployment:** Netlify, AWS, GCP
+* **Tools:** Git, ESLint, Create React App
 
 ## 📋 Features
 
-- **Responsive Design** - Optimized for all devices
-- **Dark/Light Mode** - Automatic theme detection with manual toggle
-- **Smooth Animations** - Powered by Framer Motion
-- **Bilingual Support** - English and Turkish
-- **Project Showcase** - Detailed project presentations
-- **Skills Visualization** - Interactive skill progress bars
-- **Professional Timeline** - Education and experience history
-
-## 🏆 Certifications (Currently Pursuing)
-
-### Professional Certificates (In Progress)
-- Meta Full-Stack Developer Professional Certificate
-- Google Cloud Fundamentals
-- IBM AI Engineering Professional Certificate
-- AWS Cloud Foundations
-
-*I'm actively working on these certifications to enhance my skills in full-stack development, cloud computing, and AI engineering.*
+* Responsive design (mobile-first)
+* Dark/light mode toggle
+* Smooth animations with Framer Motion
+* Bilingual support (English & Turkish)
+* Project showcase section
+* Interactive skill visualizations
+* Timeline of education and experience
 
 ## 💼 Featured Projects
 
 ### E-Commerce Platform
-A comprehensive full-stack e-commerce solution featuring user authentication, product management, shopping cart functionality, and Stripe payment integration.
 
+Full-stack e-commerce app with user authentication, product management, shopping cart, and Stripe payments.
 **Tech Stack:** React, Node.js, MongoDB, Express, Stripe
 
 ### Personal Blog Platform
-A modern blog website with content management, user authentication, rich text editing, and SEO optimization.
 
+Blog website with user auth, content management, rich text editing, and SEO features.
 **Tech Stack:** React, Node.js, MongoDB, Express, TailwindCSS
 
-## 🎨 Design Philosophy
+## 🛠️ Skills Highlight
 
-This portfolio emphasizes clean, modern design with a focus on user experience. The color scheme and typography are carefully chosen to create a professional yet approachable appearance. The responsive design ensures optimal viewing across all devices.
+* Modern React development with hooks and functional components
+* TypeScript for type-safe code
+* Responsive layouts with TailwindCSS
+* Framer Motion animations
+* Dark/light mode & bilingual support
+* Git version control and project management tools
+* Deployment and performance optimization
 
-## 🌐 Deployment
+## 🎯 Why This Portfolio
 
-This portfolio is deployed on Netlify with automatic deployments from the main branch. The build process optimizes the application for production with code splitting, optimized assets, and SEO optimization.
-
-## 📱 Responsive Design
-
-The portfolio is built with a mobile-first approach and includes responsive grid layouts, flexible typography scaling, touch-friendly navigation, and optimized images for different screen sizes.
-
-## 🎯 Performance Features
-
-- Lazy loading for images and components
-- Optimized animations with Framer Motion
-- Efficient state management
-- Minimal bundle size
-- Fast loading times
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+This portfolio shows my ability to build production-ready web apps, focus on user experience, and follow modern development standards. It reflects my frontend skills, attention to design, and technical problem-solving.
 
 ---
-
-*Built with ❤️ using React, TypeScript, and TailwindCSS*
