@@ -1,6 +1,6 @@
 export const translations = {
   en: {
-    // Navigation
+    
     nav: {
       home: "Home",
       about: "About",
@@ -9,7 +9,7 @@ export const translations = {
       experience: "Experience",
       contact: "Contact"
     },
-    // Hero Section
+    
     hero: {
       greeting: "Hello, I'm",
       name: "Batuhan Açan",
@@ -18,7 +18,7 @@ export const translations = {
       viewWork: "View My Work",
       learnMore: "Learn More"
     },
-    // About Section
+    
     about: {
       title: "About Me",
       subtitle: "Get to know me better",
@@ -46,7 +46,7 @@ export const translations = {
       },
       languages: "Languages"
     },
-    // Skills Section
+    
     skills: {
       title: "Skills & Technologies",
       subtitle: "My technical expertise across full-stack development and AI/ML",
@@ -63,7 +63,7 @@ export const translations = {
         subtitle: "I'm always expanding my skill set and staying up-to-date with the latest technologies."
       }
     },
-    // Projects Section
+    
     projects: {
       title: "Featured Projects",
       subtitle: "A showcase of my recent work in full-stack development",
@@ -84,7 +84,7 @@ export const translations = {
         button: "View All Projects"
       }
     },
-    // Experience Section
+    
     experience: {
       title: "Experience & Education",
       subtitle: "My academic journey, international experience, and achievements",
@@ -181,7 +181,7 @@ export const translations = {
         skills: ["Software Engineering", "Full-Stack Development", "International Experience", "Team Leadership"]
       }
     },
-    // Contact Section
+    
     contact: {
       title: "Get In Touch",
       subtitle: "I'm always interested in new opportunities and collaborations. Let's discuss how we can work together!",
@@ -204,7 +204,7 @@ export const translations = {
       },
       follow: "Follow Me"
     },
-    // Footer
+    
     footer: {
       description: "Computer Science student passionate about full-stack development and international experience. Turning ideas into reality through code and innovation.",
       quickLinks: "Quick Links",
@@ -213,7 +213,7 @@ export const translations = {
     }
   },
   tr: {
-    // Navigation
+    
     nav: {
       home: "Ana Sayfa",
       about: "Hakkımda",
@@ -222,7 +222,7 @@ export const translations = {
       experience: "Deneyim",
       contact: "İletişim"
     },
-    // Hero Section
+    
     hero: {
       greeting: "Merhaba, ben",
       name: "Batuhan Açan",
@@ -231,7 +231,7 @@ export const translations = {
       viewWork: "Çalışmalarımı Gör",
       learnMore: "Daha Fazla"
     },
-    // About Section
+    
     about: {
       title: "Hakkımda",
       subtitle: "Beni daha iyi tanıyın",
@@ -259,7 +259,7 @@ export const translations = {
       },
       languages: "Diller"
     },
-    // Skills Section
+    
     skills: {
       title: "Yetenekler & Teknolojiler",
       subtitle: "Full-stack geliştirme ve AI/ML alanlarındaki teknik uzmanlığım",
@@ -276,7 +276,7 @@ export const translations = {
         subtitle: "Yetenek setimi sürekli genişletiyor ve en son teknolojilerle güncel kalıyorum."
       }
     },
-    // Projects Section
+    
     projects: {
       title: "Öne Çıkan Projeler",
       subtitle: "Full-stack geliştirme alanındaki son çalışmalarımın vitrini",
@@ -297,7 +297,7 @@ export const translations = {
         button: "Tüm Projeleri Gör"
       }
     },
-    // Experience Section
+    
     experience: {
       title: "Deneyim & Eğitim",
       subtitle: "Akademik yolculuğum, uluslararası deneyimim ve başarılarım",
@@ -394,7 +394,7 @@ export const translations = {
         skills: ["Yazılım Mühendisliği", "Tam-stack Geliştirme", "Uluslararası Deneyim", "Takım Liderliği"]
       }
     },
-    // Contact Section
+    
     contact: {
       title: "İletişime Geçin",
       subtitle: "Yeni fırsatlar ve işbirlikleriyle her zaman ilgileniyorum. Birlikte nasıl çalışabileceğimizi konuşalım!",
@@ -417,7 +417,7 @@ export const translations = {
       },
       follow: "Beni Takip Edin"
     },
-    // Footer
+    
     footer: {
       description: "Full-stack geliştirme ve uluslararası deneyime tutkulu Bilgisayar Mühendisliği öğrencisi. Fikirleri kod aracılığıyla gerçeğe dönüştürüyorum.",
       quickLinks: "Hızlı Linkler",

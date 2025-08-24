@@ -55,7 +55,7 @@ const projectsData = [
     category: "fullstack",
     tech: ["React", "Node.js", "MongoDB", "Express", "TailwindCSS"],
     github: "https://github.com/221-Batuhan/blog-platform", // TODO: Add your GitHub link
-    demo: "#", // TODO: Add your demo link
+    demo: "#", 
     featured: true,
     slug: "blog-platform",
     details: {

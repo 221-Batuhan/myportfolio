@@ -17,8 +17,8 @@ const Projects: React.FC = () => {
       image: "/project-images/ecommerce-mainpage.jpg",
       category: "fullstack",
       tech: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
-      github: "https://github.com/221-Batuhan/ecommerce-store", // TODO: Add your GitHub link
-      demo: "#", // TODO: Add your demo link
+      github: "https://github.com/221-Batuhan/ecommerce-store",
+      demo: "#", 
       featured: true,
       slug: "ecommerce-platform",
       details: {
@@ -59,8 +59,8 @@ const Projects: React.FC = () => {
       image: "/project-images/blogged-mainpage.jpg",
       category: "fullstack",
       tech: ["React", "Node.js", "MongoDB", "Express", "TailwindCSS"],
-      github: "https://github.com/221-Batuhan/blog-platform", // TODO: Add your GitHub link
-      demo: "#", // TODO: Add your demo link
+      github: "https://github.com/221-Batuhan/blog-platform",
+      demo: "#", 
       featured: true,
       slug: "blog-platform",
       details: {
@@ -109,7 +109,7 @@ const Projects: React.FC = () => {
     : projects.filter(project => project.category === activeFilter);
 
   const handleViewDetails = (projectSlug: string) => {
-    // Navigate to project detail page
+    
     window.location.href = `/project/${projectSlug}`;
   };
 
@@ -131,7 +131,7 @@ const Projects: React.FC = () => {
           </p>
         </motion.div>
 
-        {/* Filter Buttons */}
+        {}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -154,7 +154,7 @@ const Projects: React.FC = () => {
           ))}
         </motion.div>
 
-        {/* Projects Grid */}
+        {}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProjects.map((project, index) => (
             <motion.div
@@ -165,7 +165,7 @@ const Projects: React.FC = () => {
               viewport={{ once: true }}
               className="card overflow-hidden group"
             >
-              {/* Project Image */}
+              {}
               <div className="relative overflow-hidden">
                 <img
                   src={project.image}
@@ -212,7 +212,7 @@ const Projects: React.FC = () => {
                 </div>
               </div>
 
-              {/* Project Content */}
+              {}
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
                   {project.title}
@@ -221,7 +221,7 @@ const Projects: React.FC = () => {
                   {project.description}
                 </p>
 
-                {/* Tech Stack */}
+                {}
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tech.map((tech, techIndex) => (
                     <span
@@ -233,7 +233,7 @@ const Projects: React.FC = () => {
                   ))}
                 </div>
 
-                {/* Project Links */}
+                {}
                 <div className="flex space-x-4">
                   {project.github && project.github !== "#" && (
                     <a
@@ -275,7 +275,7 @@ const Projects: React.FC = () => {
           ))}
         </div>
 
-        {/* Call to Action */}
+        {}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

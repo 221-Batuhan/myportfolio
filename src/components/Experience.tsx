@@ -146,7 +146,7 @@ const Experience: React.FC = () => {
         </motion.div>
 
         <div className="relative">
-          {/* Timeline line */}
+          {}
           <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gray-200 dark:bg-gray-700"></div>
 
           <div className="space-y-12">
@@ -159,13 +159,13 @@ const Experience: React.FC = () => {
                 viewport={{ once: true }}
                 className="relative flex items-start"
               >
-                {/* Timeline dot */}
+                {}
                 <div className="absolute left-6 w-4 h-4 bg-primary-600 rounded-full border-4 border-white dark:border-gray-900 z-10"></div>
 
-                {/* Content */}
+                {}
                 <div className="ml-16 flex-1">
                   <div className="card p-6">
-                    {/* Header */}
+                    {}
                     <div className="flex items-start justify-between mb-4">
                       <div className="flex items-center space-x-3">
                         <div className={`p-2 rounded-lg ${getTypeColor(experience.type)}`}>
@@ -185,7 +185,7 @@ const Experience: React.FC = () => {
                       </span>
                     </div>
 
-                    {/* Location and Period */}
+                    {}
                     <div className="flex items-center space-x-6 mb-4 text-sm text-gray-600 dark:text-gray-400">
                       <div className="flex items-center space-x-1">
                         <MapPin className="w-4 h-4" />
@@ -197,12 +197,12 @@ const Experience: React.FC = () => {
                       </div>
                     </div>
 
-                    {/* Description */}
+                    {}
                     <p className="text-gray-700 dark:text-gray-300 mb-4">
                       {experience.description}
                     </p>
 
-                    {/* Highlights */}
+                    {}
                     <ul className="space-y-2">
                       {experience.highlights.map((highlight, highlightIndex) => (
                         <li key={highlightIndex} className="flex items-start space-x-2">
@@ -220,7 +220,7 @@ const Experience: React.FC = () => {
           </div>
         </div>
 
-        {/* Certificates Section */}
+        {}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -267,7 +267,7 @@ const Experience: React.FC = () => {
           </div>
         </motion.div>
 
-        {/* Future Opportunities */}
+        {}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

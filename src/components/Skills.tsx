@@ -82,7 +82,7 @@ const Skills: React.FC = () => {
           </p>
         </motion.div>
 
-        {/* Main Skill Categories */}
+        {}
         <div className="grid md:grid-cols-2 gap-8 mb-16">
           {skillCategories.map((category, categoryIndex) => (
             <motion.div
@@ -140,7 +140,7 @@ const Skills: React.FC = () => {
           ))}
         </div>
 
-        {/* Advanced Skills & Specializations */}
+        {}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

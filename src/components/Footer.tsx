@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
     },
     {
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/batuhanacan221/',
+      url: 'https://linkedin.com/in/batuhanacan',
       icon: <Linkedin className="w-5 h-5" />
     },
     {
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
     <footer className="bg-gray-900 dark:bg-black text-white">
       <div className="container-custom px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-3 gap-8">
-          {/* Brand Section */}
+          {}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
             </div>
           </motion.div>
 
-          {/* Quick Links */}
+          {}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -106,7 +106,7 @@ const Footer: React.FC = () => {
             </ul>
           </motion.div>
 
-          {/* Contact Info */}
+          {}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -125,7 +125,7 @@ const Footer: React.FC = () => {
           </motion.div>
         </div>
 
-        {/* Bottom Section */}
+        {}
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}

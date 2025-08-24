@@ -10,7 +10,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ProjectDetail from './components/ProjectDetail';
 
-// Language context
+
 export const LanguageContext = React.createContext({
   language: 'en',
   setLanguage: (lang: string) => {},

@@ -50,7 +50,7 @@ const About: React.FC = () => {
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Profile Photo */}
+          {}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -59,15 +59,15 @@ const About: React.FC = () => {
             className="flex justify-center lg:justify-start"
           >
             <div className="relative">
-              {/* Modern profile photo design */}
+              {}
               <div className="relative w-96 h-96">
-                {/* Subtle background */}
+                {}
                 <div className="absolute inset-0 bg-gradient-to-br from-gray-100 via-gray-200 to-gray-300 dark:from-gray-800 dark:via-gray-700 dark:to-gray-600 rounded-3xl shadow-2xl"></div>
                 
-                {/* Inner frame */}
+                {}
                 <div className="absolute inset-4 bg-white/10 dark:bg-gray-900/20 backdrop-blur-sm rounded-2xl border border-gray-200/50 dark:border-gray-600/50"></div>
                 
-                {/* Photo container */}
+                {}
                 <div className="absolute inset-8 flex items-center justify-center">
                   <div className="w-64 h-64 rounded-xl overflow-hidden shadow-lg border-2 border-white/60 dark:border-gray-500/60">
                     <img 
@@ -78,14 +78,14 @@ const About: React.FC = () => {
                   </div>
                 </div>
                 
-                {/* Subtle corner accents */}
+                {}
                 <div className="absolute top-3 right-3 w-4 h-4 bg-primary-500/60 rounded-full shadow-md"></div>
                 <div className="absolute bottom-3 left-3 w-3 h-3 bg-primary-400/60 rounded-full shadow-md"></div>
               </div>
             </div>
           </motion.div>
 
-          {/* Content */}
+          {}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -111,7 +111,7 @@ const About: React.FC = () => {
               </p>
             </div>
 
-            {/* Languages */}
+            {}
             <div className="bg-white dark:bg-gray-700 rounded-lg p-4 shadow-md">
               <div className="flex items-center space-x-3 mb-3">
                 <Languages className="w-6 h-6 text-primary-600 dark:text-primary-400" />
@@ -124,7 +124,7 @@ const About: React.FC = () => {
               </div>
             </div>
 
-            {/* Key Features */}
+            {}
             <div className="grid sm:grid-cols-2 gap-4 mt-8">
               {features.map((feature, index) => (
                 <motion.div

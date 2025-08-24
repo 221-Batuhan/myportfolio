@@ -30,16 +30,16 @@ const Contact: React.FC = () => {
     setIsSubmitting(true);
     
     try {
-      // Create mailto link with form data
+      
       const mailtoLink = `mailto:acan.batuhan34@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)}`;
       
-      // Open user's default email client
+      
       window.open(mailtoLink);
       
       setIsSubmitting(false);
       setIsSubmitted(true);
       
-      // Reset form after showing success message
+      
       setTimeout(() => {
         setIsSubmitted(false);
         setFormData({ name: '', email: '', subject: '', message: '' });
@@ -80,7 +80,7 @@ const Contact: React.FC = () => {
     },
     {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/batuhanacan221/",
+      url: "https://linkedin.com/in/batuhanacan",
       icon: <Linkedin className="w-6 h-6" />
     }
   ];
@@ -104,7 +104,7 @@ const Contact: React.FC = () => {
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12">
-          {/* Contact Information */}
+          {}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -121,7 +121,7 @@ const Contact: React.FC = () => {
               </p>
             </div>
 
-            {/* Contact Info Cards */}
+            {}
             <div className="space-y-4">
               {contactInfo.map((info, index) => (
                 <motion.a
@@ -148,7 +148,7 @@ const Contact: React.FC = () => {
               ))}
             </div>
 
-            {/* Social Links */}
+            {}
             <div>
               <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
                 {t.contact.follow}
@@ -174,7 +174,7 @@ const Contact: React.FC = () => {
             </div>
           </motion.div>
 
-          {/* Contact Form */}
+          {}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}

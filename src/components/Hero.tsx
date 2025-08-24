@@ -24,10 +24,10 @@ const Hero: React.FC = () => {
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      {/* Background gradient */}
+      {}
       <div className="absolute inset-0 bg-gradient-to-br from-primary-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900"></div>
       
-      {/* Animated background elements */}
+      {}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-primary-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8 }}
           className="max-w-4xl mx-auto"
         >
-          {/* Greeting */}
+          {}
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
             {t.hero.greeting}
           </motion.p>
 
-          {/* Name */}
+          {}
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
             {t.hero.name}
           </motion.h1>
 
-          {/* Title */}
+          {}
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -71,7 +71,7 @@ const Hero: React.FC = () => {
             {t.hero.title}
           </motion.h2>
 
-          {/* Tagline */}
+          {}
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -81,7 +81,7 @@ const Hero: React.FC = () => {
             {t.hero.tagline}
           </motion.p>
 
-          {/* CTA Buttons */}
+          {}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -103,7 +103,7 @@ const Hero: React.FC = () => {
             </button>
           </motion.div>
 
-          {/* Social Links */}
+          {}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -120,7 +120,7 @@ const Hero: React.FC = () => {
               <Github className="w-6 h-6" />
             </a>
             <a
-              href="https://www.linkedin.com/in/batuhanacan221/"
+              href="https://linkedin.com/in/batuhanacan"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-200"
@@ -139,7 +139,7 @@ const Hero: React.FC = () => {
         </motion.div>
       </div>
 
-      {/* Scroll indicator */}
+      {}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
