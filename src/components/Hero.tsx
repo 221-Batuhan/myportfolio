@@ -120,7 +120,7 @@ const Hero: React.FC = () => {
               <Github className="w-6 h-6" />
             </a>
             <a
-              href="https://linkedin.com/in/batuhanacan"
+              href="https://www.linkedin.com/in/batuhanacan221/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-200"
