@@ -80,7 +80,7 @@ const Contact: React.FC = () => {
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/batuhanacan",
+      url: "https://linkedin.com/in/batuhanacan221",
       icon: <Linkedin className="w-6 h-6" />
     }
   ];

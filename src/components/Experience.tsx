@@ -94,6 +94,20 @@ const Experience: React.FC = () => {
       organization: "Coursera",
       date: "In Progress",
       description: "Currently pursuing AWS cloud computing certification to strengthen cloud infrastructure and services knowledge."
+    },
+    {
+      id: 5,
+      title: "Responsive Web Design",
+      organization: "FreeCodeCamp",
+      date: "In Progress",
+      description: "Currently working on responsive web design certification to enhance my skills in web design and development."
+    },
+    {
+      id: 6,
+      title: "JavaScript Algorithms and Data Structures",
+      organization: "FreeCodeCamp",
+      date: "In Progress",
+      description: "Currently working on JavaScript algorithms and data structures certification to enhance my skills in JavaScript and data structures."
     }
   ];
 

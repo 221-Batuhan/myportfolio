@@ -53,7 +53,7 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
           {}
           <div className="flex-shrink-0">
             <h1 className="text-2xl font-bold text-primary-600 dark:text-primary-400">
-              Portfolio
+              Batuhan Açan
             </h1>
           </div>
 
