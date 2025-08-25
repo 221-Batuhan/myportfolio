@@ -14,7 +14,7 @@ const Projects: React.FC = () => {
       id: 1,
       title: "NextWeather App",
       description: "A beautiful, modern weather app built with Next.js and TailwindCSS. Features real-time weather data, dark/light mode toggle, and responsive design with search functionality for any city worldwide.",
-      image: "/project-images/weather-mainpage.jpg",
+      image: "/project-images/waether1.jpg",
       category: "frontend",
       tech: ["Next.js", "TailwindCSS", "JavaScript", "OpenWeatherMap API", "Responsive Design"],
       github: "https://github.com/221-Batuhan/my-weatherapp",
@@ -45,10 +45,10 @@ const Projects: React.FC = () => {
           "localStorage for theme persistence across sessions"
         ],
         images: [
-          "/project-images/weather-mainpage.jpg",
-          "/project-images/weather-search.jpg",
-          "/project-images/weather-darkmode.jpg",
-          "/project-images/weather-mobile.jpg"
+          "/project-images/waether1.jpg",
+          "/project-images/weather2.jpg",
+          "/project-images/city1.jpg",
+          "/project-images/city2.jpg"
         ]
       }
     },

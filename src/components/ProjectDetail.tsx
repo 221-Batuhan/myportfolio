@@ -7,13 +7,59 @@ import { useParams, useNavigate } from 'react-router-dom';
 const projectsData = [
   {
     id: 1,
+    title: "NextWeather App",
+    description: "A beautiful, modern weather app built with Next.js and TailwindCSS. Features real-time weather data, dark/light mode toggle, and responsive design with search functionality for any city worldwide.",
+    image: "/project-images/waether1.jpg",
+    category: "frontend",
+    tech: ["Next.js", "TailwindCSS", "JavaScript", "OpenWeatherMap API", "Responsive Design"],
+    github: "https://github.com/221-Batuhan/my-weatherapp",
+    demo: "https://nextweather221.netlify.app/",
+    featured: true,
+    slug: "nextweather-app",
+    details: {
+      overview: "A modern weather application that provides real-time weather information for any city worldwide. Built with Next.js and TailwindCSS, featuring a beautiful UI with dark/light mode toggle and responsive design. This is a completed project that demonstrates proficiency in modern frontend development, API integration, and responsive design principles.",
+      features: [
+        "Real-time weather data from OpenWeatherMap API",
+        "Dark/Light mode toggle with localStorage persistence",
+        "Fully responsive design for mobile, tablet, and desktop",
+        "Modern UI with smooth gradients and animations",
+        "Search functionality for any city worldwide",
+        "Fast and optimized with Next.js",
+        "Beautiful weather icons and detailed information display",
+        "Error handling for invalid city searches",
+        "Loading states and smooth transitions"
+      ],
+      challenges: [
+        "Integrating external weather API with proper error handling",
+        "Implementing responsive design for all device sizes",
+        "Creating smooth animations and transitions",
+        "Managing state for theme switching",
+        "Handling API rate limits and network errors"
+      ],
+      solutions: [
+        "Used OpenWeatherMap API with comprehensive error handling",
+        "Mobile-first responsive design with TailwindCSS",
+        "Framer Motion for smooth animations and transitions",
+        "localStorage for theme persistence across sessions",
+        "Implemented proper loading states and error boundaries"
+      ],
+      images: [
+        "/project-images/waether1.jpg",
+        "/project-images/weather2.jpg",
+        "/project-images/city1.jpg",
+        "/project-images/city2.jpg"
+      ]
+    }
+  },
+  {
+    id: 2,
     title: "E-Commerce Platform",
     description: "A full-stack e-commerce website with user authentication, product management, shopping cart, and payment integration. Currently in development.",
     image: "/project-images/ecommerce-mainpage.jpg",
     category: "fullstack",
     tech: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
-    github: "https://github.com/221-Batuhan/ecommerce-store", // TODO: Add your GitHub link
-    demo: "#", // TODO: Add your demo link
+    github: "https://github.com/221-Batuhan/ecommerce-store",
+    demo: "#",
     featured: true,
     slug: "ecommerce-platform",
     details: {
@@ -48,13 +94,13 @@ const projectsData = [
     }
   },
   {
-    id: 2,
+    id: 3,
     title: "Personal Blog Platform",
     description: "A modern blog website with content management, user authentication, and responsive design. Features include article creation, commenting system, and SEO optimization.",
     image: "/project-images/blogged-mainpage.jpg",
     category: "fullstack",
     tech: ["React", "Node.js", "MongoDB", "Express", "TailwindCSS"],
-    github: "https://github.com/221-Batuhan/blog-platform", // TODO: Add your GitHub link
+    github: "https://github.com/221-Batuhan/blog-platform",
     demo: "#", 
     featured: true,
     slug: "blog-platform",
@@ -299,7 +345,7 @@ const ProjectDetail: React.FC = () => {
                 <div>
                   <span className="text-sm text-gray-500 dark:text-gray-400">Status</span>
                   <p className="text-gray-900 dark:text-white font-medium">
-                    {project.featured ? 'Featured Project' : 'Active Development'}
+                    {project.slug === 'nextweather-app' ? 'Completed Project' : (project.featured ? 'Featured Project' : 'Active Development')}
                   </p>
                 </div>
               </div>
