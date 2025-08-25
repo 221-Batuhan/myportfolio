@@ -44,7 +44,13 @@ export const translations = {
           description: "TEDx Yildiz Technical University member since September 2024"
         }
       },
-      languages: "Languages"
+      languages: "Languages",
+      languageSkills: {
+        turkish: "Turkish (Native)",
+        english: "English (Fluent)",
+        polish: "Polish (Learning)",
+        russian: "Russian (Learning)"
+      }
     },
     
     skills: {
@@ -257,7 +263,13 @@ export const translations = {
           description: "Eylül 2024'ten beri TEDx Yıldız Teknik Üniversitesi üyesi"
         }
       },
-      languages: "Diller"
+      languages: "Diller",
+      languageSkills: {
+        turkish: "Türkçe (Ana dil)",
+        english: "İngilizce (Akıcı)",
+        polish: "Lehçe (Öğreniyorum)",
+        russian: "Rusça (Öğreniyorum)"
+      }
     },
     
     skills: {
@@ -423,6 +435,225 @@ export const translations = {
       quickLinks: "Hızlı Linkler",
       contactInfo: "İletişim Bilgileri",
       rights: "Tüm hakları saklıdır."
+    }
+  },
+  pl: {
+    
+    nav: {
+      home: "Strona główna",
+      about: "O mnie",
+      skills: "Umiejętności",
+      projects: "Projekty",
+      experience: "Doświadczenie",
+      contact: "Kontakt"
+    },
+    
+    hero: {
+      greeting: "Cześć, jestem",
+      name: "Batuhan Açan",
+      title: "Student Informatyki | Full-Stack Developer",
+      tagline: "Przekształcam pomysły w kod, łącząc rozwój full-stack z międzynarodowym doświadczeniem.",
+      viewWork: "Zobacz moje prace",
+      learnMore: "Dowiedz się więcej"
+    },
+    
+    about: {
+      title: "O mnie",
+      subtitle: "Poznaj mnie lepiej",
+      whoIAm: "Kim jestem",
+      bio1: "Jestem Batuhan Açan, pasjonat 4. roku Informatyki na Uniwersytecie Altinbas. Moja podróż w technologii jest napędzana ciekawością i silnym pragnieniem tworzenia innowacyjnych rozwiązań, które mają realny wpływ na świat cyfrowy.",
+      bio2: "Obecnie pracuję nad ekscytującymi projektami, w tym nad stroną e-commerce i platformą blogową, gdzie wykorzystuję moje umiejętności full-stack development do budowania kompletnych, przyjaznych dla użytkownika aplikacji. Moje międzynarodowe doświadczenie poprzez program Erasmus na Politechnice Białostockiej w Polsce poszerzyło moją perspektywę i wzmocniło moją zdolność do pracy w zróżnicowanych, wielokulturowych środowiskach.",
+      bio3: "Poza nauką, jestem aktywnym członkiem TEDx Yildiz Technical University od września 2024 roku, gdzie przyczyniam się do organizowania inspirujących wydarzeń i nawiązywania kontaktów z innowacyjnymi myślicielami. Jestem również byłym zawodnikiem karate z 6-letnim doświadczeniem i ponad 30 medalami w regionalnych i miejskich zawodach, co nauczyło mnie dyscypliny, wytrwałości i znaczenia ciągłego doskonalenia się.",
+      features: {
+        student: {
+          title: "Student Informatyki",
+          description: "Student 4. roku na Uniwersytecie Altinbas z solidnymi podstawami akademickimi"
+        },
+        international: {
+          title: "Doświadczenie międzynarodowe",
+          description: "Program wymiany Erasmus na Politechnice Białostockiej, Polska"
+        },
+        developer: {
+          title: "Full-Stack Developer",
+          description: "Budowanie kompletnych aplikacji webowych od frontendu do backendu"
+        },
+        member: {
+          title: "Członek organizacji",
+          description: "Członek TEDx Yildiz Technical University od września 2024"
+        }
+      },
+      languages: "Języki",
+      languageSkills: {
+        turkish: "Turecki (Ojczysty)",
+        english: "Angielski (Biegły)",
+        polish: "Polski (Uczę się)",
+        russian: "Rosyjski (Uczę się)"
+      }
+    },
+    
+    skills: {
+      title: "Umiejętności & Technologie",
+      subtitle: "Moja ekspertyza techniczna w zakresie rozwoju full-stack i AI/ML",
+      fullstack: {
+        title: "Rozwój Full-Stack",
+        description: "Budowanie kompletnych aplikacji webowych od frontendu do backendu"
+      },
+      ai: {
+        title: "AI/ML & Data Science",
+        description: "Uczenie maszynowe, analiza danych i sztuczna inteligencja"
+      },
+      learning: {
+        title: "Obecnie uczę się & Eksploruję",
+        subtitle: "Ciągle poszerzam swój zestaw umiejętności i pozostaję na bieżąco z najnowszymi technologiami."
+      }
+    },
+    
+    projects: {
+      title: "Wyróżnione projekty",
+      subtitle: "Prezentacja mojej ostatniej pracy w rozwoju full-stack",
+      filters: {
+        all: "Wszystkie projekty",
+        fullstack: "Full-Stack",
+        frontend: "Frontend",
+        ai: "AI/ML"
+      },
+      links: {
+        code: "Kod",
+        demo: "Demo",
+        comingSoon: "Linki wkrótce"
+      },
+      cta: {
+        title: "Chcesz zobaczyć więcej?",
+        subtitle: "Sprawdź mój profil GitHub, aby zobaczyć więcej projektów i wkładu.",
+        button: "Zobacz wszystkie projekty"
+      }
+    },
+    
+    experience: {
+      title: "Doświadczenie & Edukacja",
+      subtitle: "Moja podróż akademicka, doświadczenie międzynarodowe i osiągnięcia",
+      labels: {
+        education: "Edukacja",
+        experience: "Doświadczenie",
+        project: "Projekt",
+        achievement: "Osiągnięcie",
+        other: "Inne"
+      },
+      items: {
+        education: {
+          title: "Stopień Informatyki",
+          description: "Student 4. roku Informatyki z naciskiem na inżynierię oprogramowania, algorytmy i struktury danych.",
+          highlights: [
+            "Student ostatniego roku z silnymi wynikami akademickimi",
+            "Odpowiednie kursy: Struktury danych, Algorytmy, Systemy baz danych, Rozwój webowy",
+            "Projekty akademickie w rozwoju full-stack i inżynierii oprogramowania"
+          ]
+        },
+        erasmus: {
+          title: "Program wymiany Erasmus",
+          description: "Międzynarodowy program wymiany łączący zaawansowaną edukację informatyczną z doświadczeniem międzykulturowym.",
+          highlights: [
+            "Studiowałem zaawansowane kursy informatyki i inżynierii oprogramowania",
+            "Wzmocniłem umiejętności komunikacji międzykulturowej i adaptacji",
+            "Współpracowałem z międzynarodowymi studentami nad projektami badawczymi",
+            "Zdobyłem cenne międzynarodowe doświadczenie dla przyszłych możliwości kariery",
+            "Pomyślnie dostosowałem się do nowego środowiska akademickiego i kulturowego"
+          ]
+        },
+        tedx: {
+          title: "TEDx Yildiz Technical University",
+          organization: "Członek organizacji",
+          description: "Aktywny członek przyczyniający się do organizowania inspirujących wydarzeń TEDx i nawiązywania kontaktów z innowacyjnymi myślicielami.",
+          highlights: [
+            "Przyczynianie się do organizowania inspirujących wydarzeń i konferencji TEDx",
+            "Nawiązywanie kontaktów z innowacyjnymi myślicielami i prelegentami",
+            "Rozwijanie umiejętności pracy zespołowej i zarządzania wydarzeniami",
+            "Uczestnictwo w lokalnej społeczności innowacji"
+          ]
+        },
+        karate: {
+          title: "Osiągnięcia w karate",
+          organization: "Zawody regionalne & miejskie",
+          period: "6 lat doświadczenia",
+          description: "Były zawodnik karate z szerokim doświadczeniem w zawodach i licznymi osiągnięciami.",
+          highlights: [
+            "6 lat treningu karate i doświadczenia w zawodach",
+            "Ponad 30 medali w zawodach regionalnych i miejskich",
+            "Rozwinąłem umiejętności dyscypliny, wytrwałości i przywództwa",
+            "Nauczyłem się znaczenia ciągłego doskonalenia i poświęcenia"
+          ]
+        },
+        projects: {
+          title: "Obecne projekty",
+          organization: "Rozwój osobisty",
+          description: "Aktywnie pracuję nad platformami e-commerce i blogowymi, rozwijając umiejętności full-stack.",
+          highlights: [
+            "Rozwijanie pełnej aplikacji e-commerce z nowoczesnymi technologiami",
+            "Budowanie platformy blogowej z funkcjami zarządzania treścią",
+            "Stosowanie technologii React, Node.js i baz danych",
+            "Skupienie na doświadczeniu użytkownika i responsywnym designie"
+          ]
+        }
+      },
+      certificates: {
+        title: "Certyfikaty & Osiągnięcia",
+        subtitle: "Certyfikaty zawodowe i osiągnięcia akademickie",
+        web: {
+          title: "Certyfikat rozwoju webowego",
+          organization: "Platforma online",
+          description: "Kompleksowa certyfikacja rozwoju webowego obejmująca technologie frontend i backend."
+        },
+        react: {
+          title: "Rozwój React",
+          organization: "Kurs online",
+          description: "Zaawansowany rozwój React z TypeScript i nowoczesnymi najlepszymi praktykami."
+        },
+        database: {
+          title: "Zarządzanie bazami danych",
+          organization: "Kurs uniwersytecki",
+          description: "Certyfikat projektowania i zarządzania bazami danych z kursów uniwersyteckich."
+        },
+        programming: {
+          title: "Podstawy programowania",
+          organization: "Kurs uniwersytecki",
+          description: "Podstawowe koncepcje programowania i zasady rozwoju oprogramowania."
+        }
+      },
+      future: {
+        title: "Patrząc w przyszłość",
+        description: "Jestem bardzo zmotywowany i chętny do dalszego uczenia się i rozwoju. Aktywnie poszukuję możliwości pracy w Europie lub za granicą, szczególnie w Polsce, gdzie mogę wykorzystać moje międzynarodowe doświadczenie i umiejętności rozwoju full-stack.",
+        skills: ["Inżynieria oprogramowania", "Rozwój Full-Stack", "Doświadczenie międzynarodowe", "Przywództwo zespołowe"]
+      }
+    },
+    
+    contact: {
+      title: "Skontaktuj się",
+      subtitle: "Zawsze jestem zainteresowany nowymi możliwościami i współpracą. Porozmawiajmy o tym, jak możemy razem pracować!",
+      connect: {
+        title: "Połączmy się",
+        subtitle: "Obecnie jestem dostępny do pracy freelancerskiej, pełnoetatowych pozycji i interesujących współpracy projektowych. Nie wahaj się skontaktować!"
+      },
+      form: {
+        title: "Wyślij wiadomość",
+        name: "Imię *",
+        email: "Email *",
+        subject: "Temat *",
+        message: "Wiadomość *",
+        send: "Wyślij wiadomość",
+        sending: "Wysyłanie...",
+        success: {
+          title: "Wiadomość wysłana!",
+          subtitle: "Dziękuję za wiadomość. Odpowiem wkrótce!"
+        }
+      },
+      follow: "Obserwuj mnie"
+    },
+    
+    footer: {
+      description: "Student informatyki pasjonujący się rozwojem full-stack i doświadczeniem międzynarodowym. Przekształcam pomysły w rzeczywistość poprzez kod i innowację.",
+      quickLinks: "Szybkie linki",
+      contactInfo: "Informacje kontaktowe",
+      rights: "Wszystkie prawa zastrzeżone."
     }
   }
 };

@@ -118,9 +118,10 @@ const About: React.FC = () => {
                 <h4 className="font-semibold text-gray-900 dark:text-white text-sm md:text-base">{t.about.languages}</h4>
               </div>
               <div className="flex flex-wrap gap-2">
-                <span className="skill-badge text-xs md:text-sm">Turkish (Native)</span>
-                <span className="skill-badge text-xs md:text-sm">English (Fluent)</span>
-                <span className="skill-badge text-xs md:text-sm">Russian (Learning)</span>
+                <span className="skill-badge text-xs md:text-sm">{t.about.languageSkills.turkish}</span>
+                <span className="skill-badge text-xs md:text-sm">{t.about.languageSkills.english}</span>
+                <span className="skill-badge text-xs md:text-sm">{t.about.languageSkills.polish}</span>
+                <span className="skill-badge text-xs md:text-sm">{t.about.languageSkills.russian}</span>
               </div>
             </div>
 

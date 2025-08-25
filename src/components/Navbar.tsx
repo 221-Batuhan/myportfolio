@@ -22,12 +22,12 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
   }, []);
 
   const navItems = [
-    { name: language === 'en' ? 'Home' : 'Ana Sayfa', href: '#home' },
-    { name: language === 'en' ? 'About' : 'Hakkımda', href: '#about' },
-    { name: language === 'en' ? 'Skills' : 'Yetenekler', href: '#skills' },
-    { name: language === 'en' ? 'Projects' : 'Projeler', href: '#projects' },
-    { name: language === 'en' ? 'Experience' : 'Deneyim', href: '#experience' },
-    { name: language === 'en' ? 'Contact' : 'İletişim', href: '#contact' },
+    { name: language === 'en' ? 'Home' : language === 'tr' ? 'Ana Sayfa' : 'Strona główna', href: '#home' },
+    { name: language === 'en' ? 'About' : language === 'tr' ? 'Hakkımda' : 'O mnie', href: '#about' },
+    { name: language === 'en' ? 'Skills' : language === 'tr' ? 'Yetenekler' : 'Umiejętności', href: '#skills' },
+    { name: language === 'en' ? 'Projects' : language === 'tr' ? 'Projeler' : 'Projekty', href: '#projects' },
+    { name: language === 'en' ? 'Experience' : language === 'tr' ? 'Deneyim' : 'Doświadczenie', href: '#experience' },
+    { name: language === 'en' ? 'Contact' : language === 'tr' ? 'İletişim' : 'Kontakt', href: '#contact' },
   ];
 
   const scrollToSection = (href: string) => {
@@ -39,7 +39,13 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
   };
 
   const toggleLanguage = () => {
-    setLanguage(language === 'en' ? 'tr' : 'en');
+    if (language === 'en') {
+      setLanguage('tr');
+    } else if (language === 'tr') {
+      setLanguage('pl');
+    } else {
+      setLanguage('en');
+    }
   };
 
   return (
@@ -82,7 +88,7 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
             >
               <Globe className="h-4 w-4 text-gray-700 dark:text-gray-300" />
               <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
-                {language === 'en' ? 'EN' : 'TR'}
+                {language === 'en' ? 'EN' : language === 'tr' ? 'TR' : 'PL'}
               </span>
             </button>
 
