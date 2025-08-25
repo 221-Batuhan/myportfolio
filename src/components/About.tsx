@@ -49,18 +49,18 @@ const About: React.FC = () => {
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="flex justify-center lg:justify-start"
+            className="flex justify-center lg:justify-start mb-8 lg:mb-0"
           >
             <div className="relative">
               {}
-              <div className="relative w-96 h-96">
+              <div className="relative w-80 h-80 md:w-96 md:h-96">
                 {}
                 <div className="absolute inset-0 bg-gradient-to-br from-gray-100 via-gray-200 to-gray-300 dark:from-gray-800 dark:via-gray-700 dark:to-gray-600 rounded-3xl shadow-2xl"></div>
                 
@@ -69,7 +69,7 @@ const About: React.FC = () => {
                 
                 {}
                 <div className="absolute inset-8 flex items-center justify-center">
-                  <div className="w-64 h-64 rounded-xl overflow-hidden shadow-lg border-2 border-white/60 dark:border-gray-500/60">
+                  <div className="w-52 h-52 md:w-64 md:h-64 rounded-xl overflow-hidden shadow-lg border-2 border-white/60 dark:border-gray-500/60">
                     <img 
                       src="/profile-photo.jpg" 
                       alt="Batuhan Açan" 
@@ -93,20 +93,20 @@ const About: React.FC = () => {
             viewport={{ once: true }}
             className="space-y-6"
           >
-            <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
+            <h3 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white mb-6">
               {t.about.whoIAm}
             </h3>
             
             <div className="space-y-4 text-gray-600 dark:text-gray-300">
-              <p>
+              <p className="text-sm md:text-base leading-relaxed">
                 {t.about.bio1}
               </p>
               
-              <p>
+              <p className="text-sm md:text-base leading-relaxed">
                 {t.about.bio2}
               </p>
               
-              <p>
+              <p className="text-sm md:text-base leading-relaxed">
                 {t.about.bio3}
               </p>
             </div>
@@ -114,18 +114,18 @@ const About: React.FC = () => {
             {}
             <div className="bg-white dark:bg-gray-700 rounded-lg p-4 shadow-md">
               <div className="flex items-center space-x-3 mb-3">
-                <Languages className="w-6 h-6 text-primary-600 dark:text-primary-400" />
-                <h4 className="font-semibold text-gray-900 dark:text-white">{t.about.languages}</h4>
+                <Languages className="w-5 h-5 md:w-6 md:h-6 text-primary-600 dark:text-primary-400" />
+                <h4 className="font-semibold text-gray-900 dark:text-white text-sm md:text-base">{t.about.languages}</h4>
               </div>
               <div className="flex flex-wrap gap-2">
-                <span className="skill-badge">Turkish (Native)</span>
-                <span className="skill-badge">English (Fluent)</span>
-                <span className="skill-badge">Russian (Learning)</span>
+                <span className="skill-badge text-xs md:text-sm">Turkish (Native)</span>
+                <span className="skill-badge text-xs md:text-sm">English (Fluent)</span>
+                <span className="skill-badge text-xs md:text-sm">Russian (Learning)</span>
               </div>
             </div>
 
             {}
-            <div className="grid sm:grid-cols-2 gap-4 mt-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
               {features.map((feature, index) => (
                 <motion.div
                   key={index}
@@ -135,14 +135,14 @@ const About: React.FC = () => {
                   viewport={{ once: true }}
                   className="flex items-start space-x-3 p-4 rounded-lg bg-white dark:bg-gray-700 shadow-md hover:shadow-lg transition-shadow duration-200"
                 >
-                  <div className="flex-shrink-0 w-10 h-10 bg-primary-100 dark:bg-primary-900 rounded-lg flex items-center justify-center text-primary-600 dark:text-primary-400">
+                  <div className="flex-shrink-0 w-8 h-8 md:w-10 md:h-10 bg-primary-100 dark:bg-primary-900 rounded-lg flex items-center justify-center text-primary-600 dark:text-primary-400">
                     {feature.icon}
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 dark:text-white">
+                    <h4 className="font-semibold text-gray-900 dark:text-white text-sm md:text-base">
                       {feature.title}
                     </h4>
-                    <p className="text-sm text-gray-600 dark:text-gray-400">
+                    <p className="text-xs md:text-sm text-gray-600 dark:text-gray-400">
                       {feature.description}
                     </p>
                   </div>
