@@ -12,6 +12,48 @@ const Projects: React.FC = () => {
   const projects = [
     {
       id: 1,
+      title: "NextWeather App",
+      description: "A beautiful, modern weather app built with Next.js and TailwindCSS. Features real-time weather data, dark/light mode toggle, and responsive design with search functionality for any city worldwide.",
+      image: "/project-images/weather-mainpage.jpg",
+      category: "frontend",
+      tech: ["Next.js", "TailwindCSS", "JavaScript", "OpenWeatherMap API", "Responsive Design"],
+      github: "https://github.com/221-Batuhan/my-weatherapp",
+      demo: "https://nextweather221.netlify.app/", 
+      featured: true,
+      slug: "nextweather-app",
+      details: {
+        overview: "A modern weather application that provides real-time weather information for any city worldwide. Built with Next.js and TailwindCSS, featuring a beautiful UI with dark/light mode toggle and responsive design.",
+        features: [
+          "Real-time weather data from OpenWeatherMap API",
+          "Dark/Light mode toggle with localStorage persistence",
+          "Fully responsive design for mobile, tablet, and desktop",
+          "Modern UI with smooth gradients and animations",
+          "Search functionality for any city worldwide",
+          "Fast and optimized with Next.js",
+          "Beautiful weather icons and detailed information display"
+        ],
+        challenges: [
+          "Integrating external weather API with proper error handling",
+          "Implementing responsive design for all device sizes",
+          "Creating smooth animations and transitions",
+          "Managing state for theme switching"
+        ],
+        solutions: [
+          "Used OpenWeatherMap API with comprehensive error handling",
+          "Mobile-first responsive design with TailwindCSS",
+          "Framer Motion for smooth animations and transitions",
+          "localStorage for theme persistence across sessions"
+        ],
+        images: [
+          "/project-images/weather-mainpage.jpg",
+          "/project-images/weather-search.jpg",
+          "/project-images/weather-darkmode.jpg",
+          "/project-images/weather-mobile.jpg"
+        ]
+      }
+    },
+    {
+      id: 2,
       title: "E-Commerce Platform",
       description: "A full-stack e-commerce website with user authentication, product management, shopping cart, and payment integration. Currently in development.",
       image: "/project-images/ecommerce-mainpage.jpg",
@@ -53,7 +95,7 @@ const Projects: React.FC = () => {
       }
     },
     {
-      id: 2,
+      id: 3,
       title: "Personal Blog Platform",
       description: "A modern blog website with content management, user authentication, and responsive design. Features include article creation, commenting system, and SEO optimization.",
       image: "/project-images/blogged-mainpage.jpg",
